@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap');
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: rgb(179, 179, 179);
+	color: rgb(73, 72, 72);
+	font-family: 'Montserrat Alternates', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	font-family: 'Playball', sans-serif;
+  }
+  h1 {
+	font-size: 84px;
+	text-shadow: 0px 0px 12px rgb(73, 72, 72);
+	color: rgb(73, 72, 72);
+  }
+  h2 {
+	text-shadow: 0px 0px 12px rgb(73, 72, 72);
+	font-weight: 700;
+	font-size: 52px;
+  }
+  h3 {
+	text-shadow: 0px 0px 12px rgb(73, 72, 72);
+	font-weight: 700;
+	font-size: 38px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+  }
+
+  h4 {
+	text-shadow: 0px 0px 12px rgb(73, 72, 72);
+	font-weight: 700;
+  }
+
+  p {
+	font-size: 20px;
+	margin: 16px 0px;
+	width: 65%;
+	max-width: 850px;
+	padding-right: 10px;
+  }
+  a {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+  }
+  ul {
+	list-style: none;
+	padding: 0;
+  }
+
+  header, .page-wrapper > div, .page-wrapper section > div {
+	padding: 10px 30px 10px 80px;
+  }
+  header {
+	background-image: url("../Images/Clouds.jpg");
+	background-position: 50% 70%;
+	background-size: cover;
+  }
+  aside.sidebar {
+	position: absolute;
+	right: 1%;
+	top: 300px;
+	padding: 10px 30px;
+  }
+  #zen-summary p:first-child {
+	margin-top: 40px;
+  }
+  section#zen-intro a {
+	text-transform: uppercase;
+  }
+
+  footer a{
+	text-decoration:none;
+	color:#888888;
+	background-color:#dfdfdf;
+	border:1px solid #bdbdbd;
+	padding:3px 3px;
+	height:100%;
+	}
+	
+	footer a:hover{
+	background-color:#ebebeb;
+	color:#777777;
+	}
